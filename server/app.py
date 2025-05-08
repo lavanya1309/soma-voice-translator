@@ -1,9 +1,9 @@
+import eventlet
+eventlet.monkey_patch()  # Must be called before importing other modules
+
 from flask import Flask, request, jsonify
 from flask_socketio import SocketIO, emit, join_room, leave_room
 from flask_cors import CORS
-import eventlet
-
-eventlet.monkey_patch()
 
 app = Flask(__name__)
 CORS(app)
