@@ -17,53 +17,53 @@ jobs:
     - name: Write private key to file
       run: |
         echo "-----BEGIN RSA PRIVATE KEY-----
-        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
+        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
         -----END RSA PRIVATE KEY-----" > private_key
         chmod 600 private_key
 
     - name: Copy code to VM via SCP
       run: |
-        scp -i private_key -o StrictHostKeyChecking=no -r . soma@52.249.217.156:/home/soma/soma-voice-translator
+        scp -i private_key -o StrictHostKeyChecking=no -r . soma@20.83.173.209:/home/soma/soma-voice-translator
 
     - name: SSH and deploy app
       run: |
-        ssh -i private_key -o StrictHostKeyChecking=no soma@52.249.217.156 << 'EOF'
+        ssh -i private_key -o StrictHostKeyChecking=no soma@20.83.173.209 << 'EOF'
           cd /home/soma/soma-voice-translator
           sudo apt update
           sudo apt install -y python3-pip nodejs npm unzip
